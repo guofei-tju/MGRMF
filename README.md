@@ -1,2 +1,2 @@
-# MGRMF
-Matrix Factorization algorithm based on Multi-Graph Regularization (MGRMF)
+# Matrix Factorization algorithm based on Multi-Graph Regularization (MGRMF)
+The MGRMF method is based on the matrix factorization method and the Laplacian matrices constructed by integrating multiple similarity matrices as the graph regularization term to construct the objective function. In the file, MGRMF_selecting(C,F,LRSSL)Data_parameter and MGRMF_selecting(C,F,LRSSL)Data_SimCombination are main functions, MGRMF_selecting(C,F,LRSSL)Data_parameter indicates the code for model tuning, and MGRMF_selecting(C,F,LRSSL)Data_SimCombination indicates the code for searching for different similarity combinations in the model.
