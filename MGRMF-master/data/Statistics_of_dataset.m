@@ -1,0 +1,14 @@
+clear;
+% dataset = './otherdata/GPC.mat';
+% dataset = './otherdata/Ionchannels.mat';
+% dataset = 'Cdataset.mat';
+% dataset = 'Fdataset.mat';
+dataset = 'LRSSL_dataset.mat';
+load(dataset);
+net = y;
+[V, W] = size(net);
+E = sum(net(:)>0);
+LD = E / (V * W);
+AD = E / (V + W);
+LAD = E/V;
+RAD = E/W;
